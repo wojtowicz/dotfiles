@@ -1,9 +1,16 @@
 {
     "remote.SSH.showLoginTerminal": true,
-    "workbench.colorTheme": "Monokai",
     "editor.tabSize": 2,
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
-    "editor.minimap.enabled": false
+    "files.trimFinalNewlines": true,
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Monokai",
+    "window.zoomLevel": 0,
+    "terminal.integrated.shellArgs.linux": [
+        "--login"
+    ],
+    "files.trimTrailingWhitespace": true,
+    "editor.rulers": [
+        80
+    ],
 }
